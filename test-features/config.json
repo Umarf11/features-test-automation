@@ -1,0 +1,10 @@
+{
+  "feature_order": ["vault", "secrets", "orchestration", "telemetry"],
+  "reports_dir": "reports/features",
+  "schedule": {
+    "cron": "0 10 * * *",
+    "installed": false,
+    "note": "Daily automation deferred by owner decision; only manual 'test features' runs for now. To enable later: feat_ctl.py enable-daily (or ask the agent)."
+  },
+  "retention_days": 30
+}
